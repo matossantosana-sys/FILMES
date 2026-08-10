@@ -22,12 +22,12 @@ main .slide{
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size:cover;
-          display: flex;
-          align-items: center;
+	display: flex;
+	align-items: center;
 }
 main .slide h3{
-        color: white;
-        font-size: 40px;
+	color: white;
+	font-size: 40px;
 }
 main .slide h2{
 	color: red;
@@ -36,21 +36,23 @@ main .slide h2{
 main .slide p{
 	color: white;
 	font-size: 18px;
+	margin-bottom: 20px;
 }
 main .slide a{
-  color: white;
-  backgroud: red;
-  padding: 8px 15px;
-  text-decoration: none;
-  border-radius: 8px;
+	color: white;
+	background: red;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 8px;
 }
-main .slide .descrição-slide{
-      margin-left: 50px;
+main .slide .descricao-slide{
+	margin-left: 50px;
 }
-main .catálogo{
-    margin: 50px;
+main .catalogo{
+	margin: 50px;
 }
-main .catálogo .destaque-vertodos{
-  display: flex;
-  justify-content: space-between;
+main .catalogo .destaque-vertodos{
+	display: flex;
+	justify-content: space-between;
 }
+	

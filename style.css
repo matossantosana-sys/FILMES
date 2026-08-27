@@ -57,7 +57,7 @@ main .catalogo .destaque-vertodos{
 }
 main .catalogo ul li{
 	width: 200px;
-	height: 400px;
+	height: 430px;
 	border: 1px solid gray;
 	overflow: hidden;
 	border-radius: 10px;
@@ -72,5 +72,18 @@ main .catalogo ul li h2{
 	line-height: 20px;
 	margin-bottom: 10px;
 }
+main .catalogo ul li .categoria{
+	color: #999;
+	padding: 0 0 10px 10px; 
+}
 main .catalogo ul li .lancamento{
+	color: #999;
+	padding: 0 0 10px 10px;
 } 
+main .catalogo ul li .avaliacao{
+	color: #999;
+	padding: 0 0 10px 10px
+}
+main .catalogo ul{
+	width: 100%;
+}

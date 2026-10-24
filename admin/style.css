@@ -3,6 +3,7 @@ style.css
 *{
 	margin:0;
 	padding:0;
+    font-family: "Arial";
 }
 .login{
 	padding: 80px;
@@ -62,7 +63,20 @@ ul li a:hover{
 }
 #categoria h2{
     text-align: center;
+    margin-top: 25px;
 }
 #categoria form{
     text-align: center;
+}
+#categoria input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background: #00000015;
+    text-align: center;
+}
+#categoria button{
+    width: 120px;
+    height: 40px;
 }

@@ -1,15 +1,14 @@
-<?php
-	$servidor = "localhost";
-	$banco = "cine";
-	$usuario = "root";
-	$senha = "";
+<?php 
 
-	$conexao = new mysqli( $servidor, $usuario, $senha, $banco );
+$host = "localhost";
+$usuario = "root";
+$senha = "";
+$banco = "cine";
 
+$conn = new mysqli($host, $usuario, $senha, $banco);
 
-	if($conexao->connect_error){
-		die("falha na conexão".$conexao->connect_error);
-	}
+if($conn->connect_error){
+	die("Erro na conexão: ". $conn->connect_error);
+}
 
-	echo "conectou com sucesso!";
-?>
+//salvar como conexao.php

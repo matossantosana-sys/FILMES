@@ -18,5 +18,17 @@
 <?php
 	if(isset($_GET['salvar'])){
 	    $nomeCategoria = _GET['categoria'];
-	}
- ?>
+
+		$sql = "INSERT INTO categoria (nome) values ('$nomeCategoria')";
+
+		if($conn->query($sql)){
+			echo "Gravou com sucessoo!";
+		}else {
+			echo "Deu Ruim";
+		}
+}
+
+/*Buscar dados da tabela categoria*/
+$sql = "SELECT * FROM categoria";
+$resultado = $conn->query($sql);
+
